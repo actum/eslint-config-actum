@@ -12,6 +12,7 @@
   "dependencies": {
     "eslint": "^3.4.0",
     "eslint-config-airbnb-base": "^7.0.0",
+    "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-import": "^1.14.0"
   }
 }
