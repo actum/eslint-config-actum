@@ -1,4 +1,6 @@
-module.exports = function ActumESLint (isDev) {
+module.exports = function ActumESLint (isDev) {}
+
+ActumESLint.prototype.getConfig(isDev) {
 	const path = isDev ? './dev.js' : './prod.js';
 	return path;
-}
+};

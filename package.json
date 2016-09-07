@@ -8,6 +8,10 @@
     "name": "Artem Zakharchenko",
     "url": "https://github.com/kettanaito"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettanaito/eslint-config-actum.git"
+  },
   "license": "ISC",
   "dependencies": {
     "eslint": "^3.4.0",

@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./index.js'],
+  extends: ['./prod.js'],
 
   /* Development rules */
   rules: {
