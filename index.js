@@ -1,7 +1,7 @@
 module.exports = {
 	getConfig: (isDev) => {
-		const configPath = isDev ? 'dev.js' : 'prod.js';
-		configPath = __dirname + '/' + configPath;
+		const configFile = isDev ? 'dev.js' : 'prod.js';
+		configPath = path.resolve(__dirname, configFile);
 		return configPath;
 	}
 };
