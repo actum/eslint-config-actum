@@ -9,7 +9,7 @@
     "url": "https://github.com/kettanaito"
   },
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^3.4.0",
     "eslint-config-airbnb-base": "^7.0.0",
     "eslint-plugin-import": "^1.14.0"
