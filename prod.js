@@ -5,6 +5,9 @@ module.exports = {
   /* Production rules (strict) */
   rules: {
     "no-alert": 2,
-    "no-console": 2
+    "no-console": 2,
+
+    /* Import */
+    "import/no-extraneous-dependencies": 0
   }
 }
