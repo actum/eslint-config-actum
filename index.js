@@ -1,10 +1,4 @@
-module.exports = {
-  extends: ['airbnb-base', 'airbnb-base/legacy'],
-  plugins: ['babel', 'import'],
-
-  /* Production rules (strict) */
-  rules: {
-    "no-alert": 2,
-    "no-console": 2
-  }
-};
+module.exports = function ActumESLint (isDev) {
+	const path = isDev ? './dev.js' : './prod.js';
+	return path;
+}
