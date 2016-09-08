@@ -4,6 +4,19 @@ module.exports = {
 
   /* Production rules (strict) */
   rules: {
+    /* Visual */
+
+    /* Types */
+    /* Referenes */
+    /* Strings */
+    /* Arrays */
+    /* Objects */
+    /* Functions */
+    /* Arrow functions */
+    /* Classes & Constructors */
+    /* Modules */
+    /*  */
+
     "no-alert": 2,
     "no-console": 2,
 
