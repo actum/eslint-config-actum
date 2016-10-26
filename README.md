@@ -16,15 +16,21 @@ To use this configuration in your project, follow these steps:
 # Using environment-specific rules
 In order to use different rules depending on the environment, include the configuration module in your Gulp task and use it as follows:
 ``` js
-const getConfig = require('eslint-config-actum').getConfig;
+/* This is environment example */
+const environment = {
+	isDevelopment: true
+};
+
+/* Get configuration file depending on the environment */
+const eslintConfig = require('eslint-config-actum').getConfig({ environment });
 
 ...
 
-gulp.task('lint:js', () => {
-  const rules = getConfig(isDev);
+gulp.task('lint', () => {
+  const options = { configName: eslintConfig };
 
   return gulp.src(...)
-    .pipe(eslint(rules))
+    .pipe(eslint(options))
     .pipe(eslint.format());
 });
 ```
