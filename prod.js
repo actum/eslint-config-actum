@@ -7,6 +7,7 @@ module.exports = {
     /* Visual */
     "indent": [1, 4],
     "max-len": 0,
+    "padded-blocks": 0,
 
     /* Types */
     /* Referenes */
