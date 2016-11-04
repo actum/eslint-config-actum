@@ -15,6 +15,9 @@ module.exports = {
     /* Types */
     /* Referenes */
     "no-unused-expressions": 0,
+    
+    /* Variables */
+    "no-use-before-define": ["error", { "functions": false }],
 
     /* Strings */
     /* Arrays */
