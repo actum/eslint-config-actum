@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['airbnb-base', 'airbnb-base/legacy'],
-  plugins: ['babel', 'import'],
+  plugins: ['react', 'babel', 'import'],
   ecmaFeatures: {
     modules: true
   },
@@ -39,6 +39,7 @@ module.exports = {
 
     /* Import */
     "strict": 0,
+    "import/no-named-as-default": 0,
     "import/no-extraneous-dependencies": 0,
     "import/newline-after-import": 0,
     "import/extensions": 2, // Ensure consistent use of file extension.
