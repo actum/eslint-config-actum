@@ -1,8 +1,12 @@
 module.exports = {
   extends: ['airbnb-base', 'airbnb-base/legacy'],
   plugins: ['react', 'babel', 'import'],
-  ecmaFeatures: {
-    modules: true
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true
+    }
   },
 
   /* Production rules */
