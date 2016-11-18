@@ -48,6 +48,5 @@ module.exports = {
     "import/no-extraneous-dependencies": 0,
     "import/newline-after-import": 0,
     "import/extensions": 2, // Ensure consistent use of file extension.
-    "import/no-unresolved": 0,
   }
 };
