@@ -12,7 +12,7 @@ module.exports = {
   /* Production rules */
   rules: {
     /* Visual */
-    "indent": [1, 4],
+    "indent": [1, 4, { "SwitchCase": 1 }],
     "max-len": 0,
     "padded-blocks": 0,
 
