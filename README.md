@@ -5,7 +5,7 @@
 To use this configuration in your project, follow these steps:
 
 ## 1. Install the module via npm:
-`npm install -D kettanaito/eslint-config-actum`
+`npm install -D actum/eslint-config-actum`
 
 ## 2. Configure ESLint in your **package.json**:
 ``` json
